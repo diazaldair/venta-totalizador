@@ -16,9 +16,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c53674028782cde26f7250952ed2361929b490fa",
     "commitName": "feat: A3 ingresar cantidad de items y mostrar en pantalla",
     "commitTimestamp": 1772718482078,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1772718890925,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772718908275,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ingresar cantidad y precio por item y mostrar en pantalla",
+    "commitTimestamp": 1772719259008,
+    "testId": 1
   }
 ]

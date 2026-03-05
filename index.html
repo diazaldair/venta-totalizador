@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Venta Totalizador</title>
-  </head>
-  <body>
-    <h1>Venta Totalizador</h1>
+<h1>Venta Totalizador</h1>
 
-    <form id="totalizar-form">
-      <label for="cantidad-items">Cantidad de items:</label>
-      <input type="number" id="cantidad-items" />
+<form id="totalizar-form">
+  <table>
+    <tr>
+      <td><label for="cantidad-items">Cantidad de item</label></td>
+      <td><input type="number" id="cantidad-items" /></td>
+      <td></td>
+    </tr>
 
-      <input type="submit" value="Totalizar" id="totalizar-button" />
-    </form>
+    <tr>
+      <td><label for="precio-item">Precio por item</label></td>
+      <td><input type="number" id="precio-item" step="0.01" /></td>
+      <td><input type="submit" value="Totalizar" id="totalizar-button" /></td>
+    </tr>
+  </table>
+</form>
 
-    <div id="resultado-div"></div>
+<div id="resultado-div"></div>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
-</html>
+<script type="module" src="./src/presenter.js"></script>
