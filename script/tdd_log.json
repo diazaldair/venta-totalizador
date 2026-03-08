@@ -60,9 +60,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7d1425c12e25d0b8777876f1bd05189fb636c758",
     "commitName": "feat: mostrar precio neto (cantidad x precio)",
     "commitTimestamp": 1773011334447,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1773011680151,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1773011706230,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar porcentaje de impuesto por estado",
+    "commitTimestamp": 1773012074936,
+    "testId": 3
   }
 ]

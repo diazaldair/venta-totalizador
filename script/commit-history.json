@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7d1425c12e25d0b8777876f1bd05189fb636c758",
     "author": "aldair",
     "commit": {
       "date": "2026-03-08T23:08:51.000Z",
       "message": "feat: mostrar precio neto (cantidad x precio)",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/7d1425c12e25d0b8777876f1bd05189fb636c758"
     },
     "stats": {
       "total": 21,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-08T23:21:12.000Z",
+      "message": "feat: mostrar porcentaje de impuesto por estado",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 30,
+      "deletions": 1,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

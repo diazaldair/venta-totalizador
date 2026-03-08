@@ -9,3 +9,9 @@ export function parsePrecioItem(valor) {
 export function calcularPrecioNeto(cantidad, precio) {
   return cantidad * precio;
 }
+
+export function obtenerPorcentajeImpuesto(estado) {
+  if (estado === "CA") {
+    return 8.25;
+  }
+}

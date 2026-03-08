@@ -2,6 +2,7 @@ import {
   parseCantidadItems,
   parsePrecioItem,
   calcularPrecioNeto,
+  obtenerPorcentajeImpuesto,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -19,5 +20,11 @@ describe("Totalizador - Precio por item", () => {
 describe("Totalizador - Precio neto", () => {
   it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
     expect(calcularPrecioNeto(20, 3)).toEqual(60);
+  });
+});
+
+describe("Totalizador - Porcentaje de impuesto por estado", () => {
+  it("deberia devolver 8.25 para el estado CA", () => {
+    expect(obtenerPorcentajeImpuesto("CA")).toEqual(8.25);
   });
 });
