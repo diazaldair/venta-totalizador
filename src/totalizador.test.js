@@ -3,6 +3,8 @@ import {
   parsePrecioItem,
   calcularPrecioNeto,
   obtenerPorcentajeImpuesto,
+  calcularImpuesto,
+  calcularTotalConImpuesto,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -26,5 +28,17 @@ describe("Totalizador - Precio neto", () => {
 describe("Totalizador - Porcentaje de impuesto por estado", () => {
   it("deberia devolver 8.25 para el estado CA", () => {
     expect(obtenerPorcentajeImpuesto("CA")).toEqual(8.25);
+  });
+});
+
+describe("Totalizador - Calculo de impuesto", () => {
+  it("deberia calcular el valor del impuesto usando el precio neto y el porcentaje", () => {
+    expect(calcularImpuesto(60, 8.25)).toEqual(4.95);
+  });
+});
+
+describe("Totalizador - Precio total con impuesto CA", () => {
+  it("deberia calcular el precio total sumando precio neto mas impuesto", () => {
+    expect(calcularTotalConImpuesto(60, 4.95)).toEqual(64.95);
   });
 });

@@ -3,6 +3,8 @@ import {
   parsePrecioItem,
   calcularPrecioNeto,
   obtenerPorcentajeImpuesto,
+  calcularImpuesto,
+  calcularTotalConImpuesto,
 } from "./totalizador.js";
 
 const inputCantidad = document.querySelector("#cantidad-items");
@@ -20,12 +22,15 @@ form.addEventListener("submit", (event) => {
 
   const precioNeto = calcularPrecioNeto(cantidad, precio);
   const porcentajeImpuesto = obtenerPorcentajeImpuesto(estado);
+  const impuesto = calcularImpuesto(precioNeto, porcentajeImpuesto);
+  const totalConImpuesto = calcularTotalConImpuesto(precioNeto, impuesto);
 
   div.innerHTML = `
     <p>Cantidad de item ingresada: ${cantidad}</p>
     <p>Precio por item ingresado: ${precio}</p>
     <p>Codigo de estado ingresado: ${estado}</p>
     <p>Precio neto (${cantidad}*${precio}): $${precioNeto}</p>
-    <p>Impuesto para ${estado}: ${porcentajeImpuesto}%</p>
+    <p>Impuesto para ${estado} (${porcentajeImpuesto}%): $${impuesto}</p>
+    <p>Precio total (+impuesto): $${totalConImpuesto}</p>
   `;
 });

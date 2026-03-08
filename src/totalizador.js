@@ -15,3 +15,11 @@ export function obtenerPorcentajeImpuesto(estado) {
     return 8.25;
   }
 }
+
+export function calcularImpuesto(precioNeto, porcentaje) {
+  return precioNeto * porcentaje / 100;
+}
+
+export function calcularTotalConImpuesto(precioNeto, impuesto) {
+  return precioNeto + impuesto;
+}

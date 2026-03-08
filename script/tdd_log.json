@@ -82,9 +82,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2ab9d0a77a1bda54a72e1bb92983f9e50f3a3281",
     "commitName": "feat: mostrar porcentaje de impuesto por estado",
     "commitTimestamp": 1773012074936,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 2,
+    "numTotalTests": 7,
+    "timestamp": 1773012250954,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1773012280317,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuesto CA",
+    "commitTimestamp": 1773012440344,
+    "testId": 4
   }
 ]
