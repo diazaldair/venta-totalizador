@@ -194,9 +194,39 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7e8b2af8147f6bb2f595338b9089f7f28f59a01f",
     "commitName": "feat: calcular precio total con impuesto UT",
     "commitTimestamp": 1773013882609,
     "testId": 7
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 4,
+    "numTotalTests": 14,
+    "timestamp": 1773014227639,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1773014240570,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1773014267702,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con descuento para 1000",
+    "commitTimestamp": 1773014380149,
+    "testId": 8
   }
 ]

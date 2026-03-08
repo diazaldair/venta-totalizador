@@ -5,6 +5,9 @@ import {
   obtenerPorcentajeImpuesto,
   calcularImpuesto,
   calcularTotalConImpuesto,
+  obtenerPorcentajeDescuento,
+  calcularDescuento,
+  calcularTotalConDescuento,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -52,5 +55,27 @@ describe("Totalizador - Calculo de impuesto", () => {
 describe("Totalizador - Precio total con impuesto", () => {
   it("deberia calcular el precio total sumando precio neto mas impuesto", () => {
     expect(calcularTotalConImpuesto(60, 4.95)).toEqual(64.95);
+  });
+});
+
+describe("Totalizador - Porcentaje de descuento", () => {
+  it("deberia devolver 3 cuando el precio neto es 1000", () => {
+    expect(obtenerPorcentajeDescuento(1000)).toEqual(3);
+  });
+
+  it("deberia devolver 0 cuando el precio neto es menor a 1000", () => {
+    expect(obtenerPorcentajeDescuento(999)).toEqual(0);
+  });
+});
+
+describe("Totalizador - Calculo de descuento", () => {
+  it("deberia calcular el valor del descuento usando el precio neto y el porcentaje", () => {
+    expect(calcularDescuento(1000, 3)).toEqual(30);
+  });
+});
+
+describe("Totalizador - Precio total con descuento", () => {
+  it("deberia calcular el precio total restando el descuento al precio neto", () => {
+    expect(calcularTotalConDescuento(1000, 30)).toEqual(970);
   });
 });
