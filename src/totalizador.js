@@ -14,10 +14,14 @@ export function obtenerPorcentajeImpuesto(estado) {
   if (estado === "CA") {
     return 8.25;
   }
+
+  if (estado === "AL") {
+    return 4;
+  }
 }
 
 export function calcularImpuesto(precioNeto, porcentaje) {
-  return precioNeto * porcentaje / 100;
+  return (precioNeto * porcentaje) / 100;
 }
 
 export function calcularTotalConImpuesto(precioNeto, impuesto) {

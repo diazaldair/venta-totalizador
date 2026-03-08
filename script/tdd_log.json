@@ -104,9 +104,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "554c0d435751840a695f80d49bc267b4479ac1d7",
     "commitName": "feat: calcular precio total con impuesto CA",
     "commitTimestamp": 1773012440344,
     "testId": 4
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1773012782023,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1773012795315,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1773012819978,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuesto AL",
+    "commitTimestamp": 1773012962226,
+    "testId": 5
   }
 ]

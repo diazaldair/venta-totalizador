@@ -29,6 +29,10 @@ describe("Totalizador - Porcentaje de impuesto por estado", () => {
   it("deberia devolver 8.25 para el estado CA", () => {
     expect(obtenerPorcentajeImpuesto("CA")).toEqual(8.25);
   });
+
+  it("deberia devolver 4 para el estado AL", () => {
+    expect(obtenerPorcentajeImpuesto("AL")).toEqual(4);
+  });
 });
 
 describe("Totalizador - Calculo de impuesto", () => {
@@ -37,7 +41,7 @@ describe("Totalizador - Calculo de impuesto", () => {
   });
 });
 
-describe("Totalizador - Precio total con impuesto CA", () => {
+describe("Totalizador - Precio total con impuesto", () => {
   it("deberia calcular el precio total sumando precio neto mas impuesto", () => {
     expect(calcularTotalConImpuesto(60, 4.95)).toEqual(64.95);
   });
