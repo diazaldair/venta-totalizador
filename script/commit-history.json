@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ca24a145398ab753094854db5b127f3e47345fad",
     "author": "aldair",
     "commit": {
       "date": "2026-03-08T23:45:45.000Z",
       "message": "feat: calcular precio total con impuesto NV",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/ca24a145398ab753094854db5b127f3e47345fad"
     },
     "stats": {
       "total": 8,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-08T23:51:20.000Z",
+      "message": "feat: calcular precio total con impuesto UT",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

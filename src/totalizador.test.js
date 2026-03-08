@@ -37,6 +37,10 @@ describe("Totalizador - Porcentaje de impuesto por estado", () => {
   it("deberia devolver 8 para el estado NV", () => {
     expect(obtenerPorcentajeImpuesto("NV")).toEqual(8);
   });
+
+  it("deberia devolver 6.65 para el estado UT", () => {
+    expect(obtenerPorcentajeImpuesto("UT")).toEqual(6.65);
+  });
 });
 
 describe("Totalizador - Calculo de impuesto", () => {
