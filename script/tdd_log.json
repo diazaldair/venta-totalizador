@@ -134,9 +134,47 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "de0a7accb241e95a32b05b7d4e2c027ad5ebe527",
     "commitName": "feat: calcular precio total con impuesto AL",
     "commitTimestamp": 1773012962226,
     "testId": 5
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1773013243185,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1773013276071,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1773013450622,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1773013466000,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuesto NV",
+    "commitTimestamp": 1773013547452,
+    "testId": 6
   }
 ]
