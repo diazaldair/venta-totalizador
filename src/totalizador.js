@@ -5,3 +5,7 @@ export function parseCantidadItems(valor) {
 export function parsePrecioItem(valor) {
   return Number.parseFloat(valor);
 }
+
+export function calcularPrecioNeto(cantidad, precio) {
+  return cantidad * precio;
+}

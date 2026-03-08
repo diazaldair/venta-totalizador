@@ -1,4 +1,4 @@
-import { parseCantidadItems, parsePrecioItem } from "./totalizador.js";
+import { parseCantidadItems, parsePrecioItem, calcularPrecioNeto } from "./totalizador.js";
 
 const inputCantidad = document.querySelector("#cantidad-items");
 const inputPrecio = document.querySelector("#precio-item");
@@ -11,8 +11,11 @@ form.addEventListener("submit", (event) => {
   const cantidad = parseCantidadItems(inputCantidad.value);
   const precio = parsePrecioItem(inputPrecio.value);
 
+  const precioNeto = calcularPrecioNeto(cantidad, precio);
+
   div.innerHTML = `
     <p>Cantidad de item ingresada: ${cantidad}</p>
     <p>Precio por item ingresado: ${precio}</p>
+    <p>Precio neto (${cantidad}*${precio}): $${precioNeto}</p>
   `;
 });

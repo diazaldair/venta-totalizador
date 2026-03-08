@@ -38,9 +38,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2acd0bed64737a2ca002c58ccef9f9d97e34bb8f",
     "commitName": "feat: ingresar cantidad y precio por item y mostrar en pantalla",
     "commitTimestamp": 1772719259008,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1773011152335,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1773011183812,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar precio neto (cantidad x precio)",
+    "commitTimestamp": 1773011334447,
+    "testId": 2
   }
 ]

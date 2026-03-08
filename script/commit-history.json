@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2acd0bed64737a2ca002c58ccef9f9d97e34bb8f",
     "author": "aldair",
     "commit": {
       "date": "2026-03-05T14:00:57.000Z",
       "message": "feat: ingresar cantidad y precio por item y mostrar en pantalla",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/2acd0bed64737a2ca002c58ccef9f9d97e34bb8f"
     },
     "stats": {
       "total": 55,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-08T23:08:51.000Z",
+      "message": "feat: mostrar precio neto (cantidad x precio)",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 19,
+      "deletions": 2,
+      "date": "2026-03-08"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
