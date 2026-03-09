@@ -22,7 +22,7 @@ form.addEventListener("submit", (event) => {
 
   const cantidad = parseCantidadItems(inputCantidad.value);
   const precio = parsePrecioItem(inputPrecio.value);
-  const estado = inputEstado.value;
+  const estado = inputEstado.value.toUpperCase();
 
   const precioNeto = calcularPrecioNeto(cantidad, precio);
 
@@ -37,14 +37,16 @@ form.addEventListener("submit", (event) => {
   const precioTotal = calcularPrecioTotal(precioNeto, impuesto, descuento);
 
   div.innerHTML = `
-    <p>Cantidad de item ingresada: ${cantidad}</p>
-    <p>Precio por item ingresado: ${precio}</p>
-    <p>Codigo de estado ingresado: ${estado}</p>
-    <p>Precio neto (${cantidad}*${precio}): $${precioNeto}</p>
-    <p>Impuesto para ${estado} (${porcentajeImpuesto}%): $${impuesto}</p>
-    <p>Precio total (+impuesto): $${totalConImpuesto}</p>
-    <p>Descuento (${porcentajeDescuento}%): $${descuento}</p>
-    <p>Precio total (-descuento): $${totalConDescuento}</p>
-    <p>Precio total final (${precioNeto} + ${impuesto} - ${descuento}): $${precioTotal}</p>
+    <p><span class="destacado">Cantidad de item ingresada:</span> ${cantidad}</p>
+    <p><span class="destacado">Precio por item ingresado:</span> $${precio}</p>
+    <p><span class="destacado">Código de estado ingresado:</span> ${estado}</p>
+    <hr>
+    <p><span class="destacado">Precio neto:</span> (${cantidad} * ${precio}) = $${precioNeto}</p>
+    <p><span class="destacado">Impuesto para ${estado}:</span> ${porcentajeImpuesto}% = $${impuesto}</p>
+    <p><span class="destacado">Precio total con impuesto:</span> $${totalConImpuesto}</p>
+    <p><span class="destacado">Descuento aplicado:</span> ${porcentajeDescuento}% = $${descuento}</p>
+    <p><span class="destacado">Precio total con descuento:</span> $${totalConDescuento}</p>
+    <hr>
+    <p><span class="destacado">Precio total final:</span> ${precioNeto} + ${impuesto} - ${descuento} = $${precioTotal}</p>
   `;
 });

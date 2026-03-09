@@ -380,9 +380,15 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c0e589b091d144518229a9336a3fb1ab869338e8",
     "commitName": "feat: calcular precio total final con impuesto y descuento",
     "commitTimestamp": 1773018352931,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: mejorar presentacion visual del totalizador",
+    "commitTimestamp": 1773018619905,
+    "testId": 15
   }
 ]

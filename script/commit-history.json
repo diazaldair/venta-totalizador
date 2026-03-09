@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c0e589b091d144518229a9336a3fb1ab869338e8",
     "author": "aldair",
     "commit": {
       "date": "2026-03-09T01:05:50.000Z",
       "message": "feat: calcular precio total final con impuesto y descuento",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/c0e589b091d144518229a9336a3fb1ab869338e8"
     },
     "stats": {
       "total": 19,
       "additions": 19,
       "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-09T01:10:17.000Z",
+      "message": "style: mejorar presentacion visual del totalizador",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 170,
+      "additions": 133,
+      "deletions": 37,
       "date": "2026-03-09"
     },
     "coverage": 100,
