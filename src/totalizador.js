@@ -71,3 +71,7 @@ export function calcularDescuento(precioNeto, porcentajeDescuento) {
 export function calcularTotalConDescuento(precioNeto, descuento) {
   return precioNeto - descuento;
 }
+
+export function calcularPrecioTotal(precioNeto, impuesto, descuento) {
+  return precioNeto + impuesto - descuento;
+}

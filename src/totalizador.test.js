@@ -8,6 +8,7 @@ import {
   obtenerPorcentajeDescuento,
   calcularDescuento,
   calcularTotalConDescuento,
+  calcularPrecioTotal,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -137,5 +138,15 @@ describe("Totalizador - Precio total con descuento", () => {
 
   it("deberia calcular el precio total con descuento para 30000", () => {
     expect(calcularTotalConDescuento(30000, 4500)).toEqual(25500);
+  });
+});
+
+describe("Totalizador - Precio total final", () => {
+  it("deberia calcular el precio total usando precio neto + impuesto - descuento", () => {
+    expect(calcularPrecioTotal(60, 3.75, 0)).toEqual(63.75);
+  });
+
+  it("deberia calcular el precio total final con impuesto y descuento", () => {
+    expect(calcularPrecioTotal(3000, 187.5, 150)).toEqual(3037.5);
   });
 });

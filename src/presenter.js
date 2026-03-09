@@ -8,6 +8,7 @@ import {
   obtenerPorcentajeDescuento,
   calcularDescuento,
   calcularTotalConDescuento,
+  calcularPrecioTotal,
 } from "./totalizador.js";
 
 const inputCantidad = document.querySelector("#cantidad-items");
@@ -33,6 +34,8 @@ form.addEventListener("submit", (event) => {
   const descuento = calcularDescuento(precioNeto, porcentajeDescuento);
   const totalConDescuento = calcularTotalConDescuento(precioNeto, descuento);
 
+  const precioTotal = calcularPrecioTotal(precioNeto, impuesto, descuento);
+
   div.innerHTML = `
     <p>Cantidad de item ingresada: ${cantidad}</p>
     <p>Precio por item ingresado: ${precio}</p>
@@ -42,5 +45,6 @@ form.addEventListener("submit", (event) => {
     <p>Precio total (+impuesto): $${totalConImpuesto}</p>
     <p>Descuento (${porcentajeDescuento}%): $${descuento}</p>
     <p>Precio total (-descuento): $${totalConDescuento}</p>
+    <p>Precio total final (${precioNeto} + ${impuesto} - ${descuento}): $${precioTotal}</p>
   `;
 });

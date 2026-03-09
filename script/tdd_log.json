@@ -358,9 +358,31 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "073b367fa4e9f6a3ebee0ed280760b1bfc84bebb",
     "commitName": "feat: calcular precio total con impuesto TX",
     "commitTimestamp": 1773017564749,
     "testId": 13
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 2,
+    "numTotalTests": 31,
+    "timestamp": 1773018233244,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1773018250989,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total final con impuesto y descuento",
+    "commitTimestamp": 1773018352931,
+    "testId": 14
   }
 ]
