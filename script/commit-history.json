@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "70d86ac5be7a9676d6d1ab9391add6dd500ccd7b",
     "author": "aldair",
     "commit": {
       "date": "2026-03-09T00:43:18.000Z",
       "message": "feat: calcular precio total con descuento para 30000",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/70d86ac5be7a9676d6d1ab9391add6dd500ccd7b"
     },
     "stats": {
       "total": 16,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-09T00:52:42.000Z",
+      "message": "feat: calcular precio total con impuesto TX",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

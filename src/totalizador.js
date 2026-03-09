@@ -26,6 +26,10 @@ export function obtenerPorcentajeImpuesto(estado) {
   if (estado === "UT") {
     return 6.65;
   }
+
+  if (estado === "TX") {
+    return 6.25;
+  }
 }
 
 export function calcularImpuesto(precioNeto, porcentaje) {

@@ -44,17 +44,29 @@ describe("Totalizador - Porcentaje de impuesto por estado", () => {
   it("deberia devolver 6.65 para el estado UT", () => {
     expect(obtenerPorcentajeImpuesto("UT")).toEqual(6.65);
   });
+
+  it("deberia devolver 6.25 para el estado TX", () => {
+    expect(obtenerPorcentajeImpuesto("TX")).toEqual(6.25);
+  });
 });
 
 describe("Totalizador - Calculo de impuesto", () => {
   it("deberia calcular el valor del impuesto usando el precio neto y el porcentaje", () => {
     expect(calcularImpuesto(60, 8.25)).toEqual(4.95);
   });
+
+  it("deberia calcular el valor del impuesto para TX", () => {
+    expect(calcularImpuesto(60, 6.25)).toEqual(3.75);
+  });
 });
 
 describe("Totalizador - Precio total con impuesto", () => {
   it("deberia calcular el precio total sumando precio neto mas impuesto", () => {
     expect(calcularTotalConImpuesto(60, 4.95)).toEqual(64.95);
+  });
+
+  it("deberia calcular el precio total con impuesto para TX", () => {
+    expect(calcularTotalConImpuesto(60, 3.75)).toEqual(63.75);
   });
 });
 
