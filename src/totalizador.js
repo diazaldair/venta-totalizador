@@ -37,6 +37,10 @@ export function calcularTotalConImpuesto(precioNeto, impuesto) {
 }
 
 export function obtenerPorcentajeDescuento(precioNeto) {
+  if (precioNeto >= 3000) {
+    return 5;
+  }
+
   if (precioNeto >= 1000) {
     return 3;
   }

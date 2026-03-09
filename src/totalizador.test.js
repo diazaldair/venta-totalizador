@@ -63,6 +63,10 @@ describe("Totalizador - Porcentaje de descuento", () => {
     expect(obtenerPorcentajeDescuento(1000)).toEqual(3);
   });
 
+  it("deberia devolver 5 cuando el precio neto es 3000", () => {
+    expect(obtenerPorcentajeDescuento(3000)).toEqual(5);
+  });
+
   it("deberia devolver 0 cuando el precio neto es menor a 1000", () => {
     expect(obtenerPorcentajeDescuento(999)).toEqual(0);
   });
@@ -72,10 +76,18 @@ describe("Totalizador - Calculo de descuento", () => {
   it("deberia calcular el valor del descuento usando el precio neto y el porcentaje", () => {
     expect(calcularDescuento(1000, 3)).toEqual(30);
   });
+
+  it("deberia calcular el valor del descuento para 3000 con 5%", () => {
+    expect(calcularDescuento(3000, 5)).toEqual(150);
+  });
 });
 
 describe("Totalizador - Precio total con descuento", () => {
   it("deberia calcular el precio total restando el descuento al precio neto", () => {
     expect(calcularTotalConDescuento(1000, 30)).toEqual(970);
+  });
+
+  it("deberia calcular el precio total con descuento para 3000", () => {
+    expect(calcularTotalConDescuento(3000, 150)).toEqual(2850);
   });
 });
