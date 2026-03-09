@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "195089681dd96a67b82ede897cbe6669dc1f9038",
     "author": "aldair",
     "commit": {
       "date": "2026-03-09T00:27:52.000Z",
       "message": "feat: calcular precio total con descuento para 7000",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/195089681dd96a67b82ede897cbe6669dc1f9038"
     },
     "stats": {
       "total": 16,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "aldair",
+    "commit": {
+      "date": "2026-03-09T00:35:59.000Z",
+      "message": "feat: calcular precio total con descuento para 10000",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-03-09"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }
