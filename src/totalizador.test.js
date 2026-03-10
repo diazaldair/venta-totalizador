@@ -219,7 +219,7 @@ describe("Totalizador - Descuento por tipo de cliente", () => {
     expect(obtenerDescuentoCliente("Antiguo Recurrente")).toEqual(1);
   });
 
-  /*it("deberia devolver 1.5% para cliente Especial", () => {
+  it("deberia devolver 1.5% para cliente Especial", () => {
     expect(obtenerDescuentoCliente("Especial")).toEqual(1.5);
-  });*/
+  });
 });

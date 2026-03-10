@@ -632,9 +632,23 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "095140c020fd13cb47e30f140c9f26d5eb11c426",
     "commitName": "feat: implementar descuento 1% para cliente Antiguo Recurrente",
     "commitTimestamp": 1773117390103,
     "testId": 28
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1773117444478,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento 1.5% para cliente Especial",
+    "commitTimestamp": 1773117468777,
+    "testId": 29
   }
 ]
