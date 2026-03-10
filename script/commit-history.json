@@ -570,17 +570,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fa617c7c801dcd97c154455f7243e53f663a2f07",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:39:18.000Z",
       "message": "feat(ui): añadir selector de tipo de cliente",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/fa617c7c801dcd97c154455f7243e53f663a2f07"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:42:03.000Z",
+      "message": "feat(presenter): aplicar descuento de cliente al costo de envio",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 16,
+      "deletions": 8,
       "date": "2026-03-10"
     },
     "coverage": 100,

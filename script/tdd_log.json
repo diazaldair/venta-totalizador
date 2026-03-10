@@ -652,9 +652,15 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fa617c7c801dcd97c154455f7243e53f663a2f07",
     "commitName": "feat(ui): añadir selector de tipo de cliente",
     "commitTimestamp": 1773117560530,
     "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(presenter): aplicar descuento de cliente al costo de envio",
+    "commitTimestamp": 1773117726680,
+    "testId": 31
   }
 ]
