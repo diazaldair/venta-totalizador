@@ -11,6 +11,7 @@ import {
   calcularPrecioTotal,
   calcularDescuentoPorCategoria,
   calcularImpuestoPorCategoria,
+  obtenerCostoEnvio,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -166,5 +167,41 @@ describe("Totalizador - Categorías de productos", () => {
   it("deberia aplicar 0% impuesto y 2% descuento adicional para Alimentos", () => {
     expect(calcularDescuentoPorCategoria("Alimentos")).toEqual(2);
     expect(calcularImpuestoPorCategoria("Alimentos")).toEqual(0);
+  });
+});
+describe("Totalizador - Costo de envío por peso volumétrico", () => {
+  it("deberia devolver $0 para peso entre 0-10", () => {
+    expect(obtenerCostoEnvio(5)).toEqual(0);
+    expect(obtenerCostoEnvio(10)).toEqual(0);
+  });
+
+  it("deberia devolver $3.5 para peso entre 11-20", () => {
+    expect(obtenerCostoEnvio(11)).toEqual(3.5);
+    expect(obtenerCostoEnvio(20)).toEqual(3.5);
+  });
+
+  it("deberia devolver $5 para peso entre 21-40", () => {
+    expect(obtenerCostoEnvio(21)).toEqual(5);
+    expect(obtenerCostoEnvio(40)).toEqual(5);
+  });
+
+  it("deberia devolver $6 para peso entre 41-80", () => {
+    expect(obtenerCostoEnvio(41)).toEqual(6);
+    expect(obtenerCostoEnvio(80)).toEqual(6);
+  });
+
+  it("deberia devolver $6.5 para peso entre 81-100", () => {
+    expect(obtenerCostoEnvio(81)).toEqual(6.5);
+    expect(obtenerCostoEnvio(100)).toEqual(6.5);
+  });
+
+  it("deberia devolver $8 para peso entre 101-200", () => {
+    expect(obtenerCostoEnvio(101)).toEqual(8);
+    expect(obtenerCostoEnvio(200)).toEqual(8);
+  });
+
+  it("deberia devolver $9 para peso mayor a 200", () => {
+    expect(obtenerCostoEnvio(201)).toEqual(9);
+    expect(obtenerCostoEnvio(500)).toEqual(9);
   });
 });

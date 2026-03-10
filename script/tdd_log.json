@@ -462,9 +462,39 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "801d29284e1ecd388a9539e40eec5a3bfe91ff4a",
     "commitName": "feat(logica/ui): integrar calculos de impuestos y descuentos por categoria",
     "commitTimestamp": 1773115251280,
     "testId": 17
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 7,
+    "numTotalTests": 41,
+    "timestamp": 1773115532058,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 7,
+    "numTotalTests": 41,
+    "timestamp": 1773115729334,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 6,
+    "numTotalTests": 41,
+    "timestamp": 1773115881364,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar costo de envio para el rango 0-10kg",
+    "commitTimestamp": 1773115947978,
+    "testId": 18
   }
 ]

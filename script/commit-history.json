@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "801d29284e1ecd388a9539e40eec5a3bfe91ff4a",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:00:50.000Z",
       "message": "feat(logica/ui): integrar calculos de impuestos y descuentos por categoria",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/801d29284e1ecd388a9539e40eec5a3bfe91ff4a"
     },
     "stats": {
       "total": 74,
@@ -340,5 +340,24 @@
     "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:12:26.000Z",
+      "message": "feat: implementar costo de envio para el rango 0-10kg",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 74,
+      "additions": 67,
+      "deletions": 7,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 41,
+    "failed_tests": 6,
+    "conclusion": "failure"
   }
 ]
