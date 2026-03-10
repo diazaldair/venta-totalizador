@@ -551,17 +551,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b1ef4fc965875120bc5a856667626682b8826da1",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:37:46.000Z",
       "message": "feat: implementar descuento 1.5% para cliente Especial",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/b1ef4fc965875120bc5a856667626682b8826da1"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:39:18.000Z",
+      "message": "feat(ui): añadir selector de tipo de cliente",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
       "date": "2026-03-10"
     },
     "coverage": 100,
