@@ -627,17 +627,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7d03190c334391314bbd9a9d0f9417104c1a7383",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:51:11.000Z",
       "message": "feat: implementar descuento de  para cliente Especial, Neto > 7000 en Electrónicos",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/7d03190c334391314bbd9a9d0f9417104c1a7383"
     },
     "stats": {
       "total": 8,
       "additions": 4,
       "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.78,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:52:47.000Z",
+      "message": "feat(presenter): mostrar desglose completo con descuento fijo adicional",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 17,
+      "deletions": 16,
       "date": "2026-03-10"
     },
     "coverage": 97.78,

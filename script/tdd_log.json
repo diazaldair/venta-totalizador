@@ -702,9 +702,15 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7d03190c334391314bbd9a9d0f9417104c1a7383",
     "commitName": "feat: implementar descuento de  para cliente Especial, Neto > 7000 en Electrónicos",
     "commitTimestamp": 1773118273505,
     "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(presenter): mostrar desglose completo con descuento fijo adicional",
+    "commitTimestamp": 1773118369964,
+    "testId": 34
   }
 ]
