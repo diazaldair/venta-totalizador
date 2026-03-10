@@ -361,12 +361,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "15c4e299a967860ea4f240c3a57772cc90927e01",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:15:21.000Z",
       "message": "feat: implementar costo de envio para el rango 11-20kg",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/15c4e299a967860ea4f240c3a57772cc90927e01"
     },
     "stats": {
       "total": 12,
@@ -378,5 +378,24 @@
     "test_count": 41,
     "failed_tests": 5,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:18:50.000Z",
+      "message": "feat: implementar costo de envio para el rango 11-20kg",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
