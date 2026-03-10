@@ -590,9 +590,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c45b97d2da3d24faa0d228e2881a951444b62de5",
     "commitName": "feat: implementar costo de envio para el rango > 200kg+interfaz",
     "commitTimestamp": 1773116760616,
     "testId": 25
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1773117128754,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1773117147970,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento 0% para cliente Normal",
+    "commitTimestamp": 1773117219682,
+    "testId": 26
   }
 ]

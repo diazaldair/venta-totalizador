@@ -12,6 +12,7 @@ import {
   calcularDescuentoPorCategoria,
   calcularImpuestoPorCategoria,
   obtenerCostoEnvio,
+  obtenerDescuentoCliente,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -204,4 +205,21 @@ describe("Totalizador - Costo de envío por peso volumétrico", () => {
     expect(obtenerCostoEnvio(201)).toEqual(9);
     expect(obtenerCostoEnvio(500)).toEqual(9);
   });
+});
+describe("Totalizador - Descuento por tipo de cliente", () => {
+  it("deberia devolver 0% para cliente Normal", () => {
+    expect(obtenerDescuentoCliente("Normal")).toEqual(0);
+  });
+
+  /*it("deberia devolver 0.5% para cliente Recurrente", () => {
+    expect(obtenerDescuentoCliente("Recurrente")).toEqual(0.5);
+  });
+
+  it("deberia devolver 1% para cliente Antiguo Recurrente", () => {
+    expect(obtenerDescuentoCliente("Antiguo Recurrente")).toEqual(1);
+  });
+
+  it("deberia devolver 1.5% para cliente Especial", () => {
+    expect(obtenerDescuentoCliente("Especial")).toEqual(1.5);
+  });*/
 });

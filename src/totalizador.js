@@ -92,3 +92,12 @@ export function obtenerCostoEnvio(peso) {
   if (peso > 10) return 3.5;
   return 0; 
 }
+export function obtenerDescuentoCliente(tipoCliente) {
+  const descuentos = {
+    "Normal": 0,
+    /*"Recurrente": 0.5,
+    "Antiguo Recurrente": 1,
+    "Especial": 1.5*/
+  };
+  return descuentos[tipoCliente] || 0;
+}
