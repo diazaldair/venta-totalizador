@@ -150,3 +150,13 @@ describe("Totalizador - Precio total final", () => {
     expect(calcularPrecioTotal(3000, 187.5, 150)).toEqual(3037.5);
   });
 });
+describe("Totalizador - Lista de estados disponibles", () => {
+  it("deberia devolver 8.25 para CA (California por defecto)", () => {
+    expect(obtenerPorcentajeImpuesto("CA")).toEqual(8.25);
+  });
+  
+  it("deberia validar que un estado no listado devuelva 0 (o manejo de error)", () => {
+    
+    expect(obtenerPorcentajeImpuesto("XX")).toEqual(0); 
+  });
+});

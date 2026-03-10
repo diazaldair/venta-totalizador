@@ -44,7 +44,7 @@
       }
 
       input[type="number"],
-      input[type="text"] {
+      select {
         width: 100%;
         padding: 8px 10px;
         border: 1px solid #cbd5e1;
@@ -103,7 +103,15 @@
 
           <tr>
             <td><label for="codigo-estado">Código de estado</label></td>
-            <td><input type="text" id="codigo-estado" /></td>
+            <td>
+              <select id="codigo-estado">
+                <option value="CA" selected>CA (California)</option>
+                <option value="AL">AL (Alabama)</option>
+                <option value="NV">NV (Nevada)</option>
+                <option value="UT">UT (Utah)</option>
+                <option value="TX">TX (Texas)</option>
+              </select>
+            </td>
           </tr>
 
           <tr>

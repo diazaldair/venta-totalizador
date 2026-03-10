@@ -386,9 +386,47 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e8a3510a59e1523eda67f28096f76bfa1b54594b",
     "commitName": "style: mejorar presentacion visual del totalizador",
     "commitTimestamp": 1773018619905,
     "testId": 15
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1773114032143,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1773114059944,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1773114296173,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1773114314195,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(interfaz/logica): reemplazar input de estado por lista desplegable e implementar lógica de selección",
+    "commitTimestamp": 1773114401274,
+    "testId": 16
   }
 ]

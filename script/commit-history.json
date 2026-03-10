@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8a3510a59e1523eda67f28096f76bfa1b54594b",
     "author": "aldair",
     "commit": {
       "date": "2026-03-09T01:10:17.000Z",
       "message": "style: mejorar presentacion visual del totalizador",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/e8a3510a59e1523eda67f28096f76bfa1b54594b"
     },
     "stats": {
       "total": 170,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T03:46:38.000Z",
+      "message": "feat(interfaz/logica): reemplazar input de estado por lista desplegable e implementar lógica de selección",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 30,
+      "deletions": 21,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -11,26 +11,17 @@ export function calcularPrecioNeto(cantidad, precio) {
 }
 
 export function obtenerPorcentajeImpuesto(estado) {
-  if (estado === "CA") {
-    return 8.25;
-  }
-
-  if (estado === "AL") {
-    return 4;
-  }
-
-  if (estado === "NV") {
-    return 8;
-  }
-
-  if (estado === "UT") {
-    return 6.65;
-  }
-
-  if (estado === "TX") {
-    return 6.25;
-  }
+  const tasas = {
+    "CA": 8.25,
+    "AL": 4,
+    "NV": 8,
+    "UT": 6.65,
+    "TX": 6.25
+  };
+  
+  return tasas[estado] || 0;
 }
+ 
 
 export function calcularImpuesto(precioNeto, porcentaje) {
   return (precioNeto * porcentaje) / 100;
