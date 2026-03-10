@@ -84,11 +84,11 @@ export function calcularImpuestoPorCategoria(categoria) {
   return categorias[categoria]?.impuesto || 0;
 }
 export function obtenerCostoEnvio(peso) {
-  /*if (peso > 200) return 9;
-  if (peso > 100) return 8;
-  if (peso > 80) return 6.5;
-  if (peso > 40) return 6;
-  if (peso > 20) return 5;
-  if (peso > 10) return 3.5;*/
+  //if (peso > 200) return 9;
+  //if (peso > 100) return 8;
+  //if (peso > 80) return 6.5;
+  //if (peso > 40) return 6;
+  //if (peso > 20) return 5;
+  if (peso > 10) return 3.5;
   return 0; 
 }
