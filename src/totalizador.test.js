@@ -211,11 +211,11 @@ describe("Totalizador - Descuento por tipo de cliente", () => {
     expect(obtenerDescuentoCliente("Normal")).toEqual(0);
   });
 
-  /*it("deberia devolver 0.5% para cliente Recurrente", () => {
+  it("deberia devolver 0.5% para cliente Recurrente", () => {
     expect(obtenerDescuentoCliente("Recurrente")).toEqual(0.5);
   });
 
-  it("deberia devolver 1% para cliente Antiguo Recurrente", () => {
+  /*it("deberia devolver 1% para cliente Antiguo Recurrente", () => {
     expect(obtenerDescuentoCliente("Antiguo Recurrente")).toEqual(1);
   });
 

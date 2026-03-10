@@ -612,9 +612,15 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0e0533c454d0229fbcec70660af74c779dbf27cd",
     "commitName": "feat: implementar descuento 0% para cliente Normal",
     "commitTimestamp": 1773117219682,
     "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento 0.5% para cliente Recurrente",
+    "commitTimestamp": 1773117303515,
+    "testId": 27
   }
 ]
