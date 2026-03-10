@@ -112,7 +112,7 @@ export function calcularDescuentoFijo(tipoCliente, precioNeto, categoria) {
 }
 export function esDatosValidos(cantidad, precio, peso) {
   if (isNaN(cantidad) || cantidad <= 0) return false;
-  //if (isNaN(precio) || precio < 0) return false;
+  if (isNaN(precio) || precio < 0) return false;
   //if (isNaN(peso) || peso < 0) return false;
   return true;
 }

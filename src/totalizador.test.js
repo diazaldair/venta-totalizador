@@ -240,11 +240,11 @@ describe("Totalizador - Validación de datos", () => {
     expect(esDatosValidos(-1, 10, 5)).toBe(false);
   });
 
-  /*it("deberia devolver false si el precio es negativo", () => {
+  it("deberia devolver false si el precio es negativo", () => {
     expect(esDatosValidos(1, -5, 5)).toBe(false);
   });
 
-  it("deberia devolver true si los datos son correctos", () => {
+  /*it("deberia devolver true si los datos son correctos", () => {
     expect(esDatosValidos(1, 100, 5)).toBe(true);
   });*/
 });

@@ -730,9 +730,23 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d2ab9b0ab2ce3c5b21ae4a2e807b8572007756cf",
     "commitName": "feat: implementar validación para cantidad de items (debe ser > 0)",
     "commitTimestamp": 1773118704665,
     "testId": 35
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1773118749213,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar validación de precio negativo",
+    "commitTimestamp": 1773118789972,
+    "testId": 36
   }
 ]
