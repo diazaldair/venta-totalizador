@@ -200,8 +200,8 @@ describe("Totalizador - Costo de envío por peso volumétrico", () => {
     expect(obtenerCostoEnvio(200)).toEqual(8);
   });
 
-  /*it("deberia devolver $9 para peso mayor a 200", () => {
+  it("deberia devolver $9 para peso mayor a 200", () => {
     expect(obtenerCostoEnvio(201)).toEqual(9);
     expect(obtenerCostoEnvio(500)).toEqual(9);
-  });*/
+  });
 });
