@@ -13,6 +13,7 @@ import {
   calcularImpuestoPorCategoria,
   obtenerCostoEnvio,
   obtenerDescuentoCliente,
+  calcularDescuentoFijo,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -222,4 +223,13 @@ describe("Totalizador - Descuento por tipo de cliente", () => {
   it("deberia devolver 1.5% para cliente Especial", () => {
     expect(obtenerDescuentoCliente("Especial")).toEqual(1.5);
   });
+});
+describe("Totalizador - Descuento fijo por tipo de cliente y categoria", () => {
+  it("deberia aplicar $100 de descuento para cliente Recurrente, Neto > 3000 y Alimentos", () => {
+    expect(calcularDescuentoFijo("Recurrente", 3500, "Alimentos")).toEqual(100);
+  });
+
+  /*it("deberia aplicar $200 de descuento para cliente Especial, Neto > 7000 y Electronicos", () => {
+    expect(calcularDescuentoFijo("Especial", 7500, "Electrónicos")).toEqual(200);
+  });*/
 });

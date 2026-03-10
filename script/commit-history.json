@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d6212fb70fbcfd6eeae475d7cbad15b4a9d779f9",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:42:03.000Z",
       "message": "feat(presenter): aplicar descuento de cliente al costo de envio",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/d6212fb70fbcfd6eeae475d7cbad15b4a9d779f9"
     },
     "stats": {
       "total": 24,
@@ -604,6 +604,25 @@
     },
     "coverage": 100,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:49:41.000Z",
+      "message": "feat: implementar descuento de  para cliente Recurrente, Neto > 3000 en Alimentos",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.67,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

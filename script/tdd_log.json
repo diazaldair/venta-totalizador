@@ -658,9 +658,39 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d6212fb70fbcfd6eeae475d7cbad15b4a9d779f9",
     "commitName": "feat(presenter): aplicar descuento de cliente al costo de envio",
     "commitTimestamp": 1773117726680,
     "testId": 31
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1773118044676,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1773118060953,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1773118108021,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de  para cliente Recurrente, Neto > 3000 en Alimentos",
+    "commitTimestamp": 1773118183666,
+    "testId": 32
   }
 ]
