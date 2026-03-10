@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b4eebb2f5441adee0762da812b0992d7294a7c53",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T03:46:38.000Z",
       "message": "feat(interfaz/logica): reemplazar input de estado por lista desplegable e implementar lógica de selección",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/b4eebb2f5441adee0762da812b0992d7294a7c53"
     },
     "stats": {
       "total": 51,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:00:50.000Z",
+      "message": "feat(logica/ui): integrar calculos de impuestos y descuentos por categoria",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 74,
+      "additions": 61,
+      "deletions": 13,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

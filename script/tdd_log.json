@@ -424,9 +424,47 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b4eebb2f5441adee0762da812b0992d7294a7c53",
     "commitName": "feat(interfaz/logica): reemplazar input de estado por lista desplegable e implementar lógica de selección",
     "commitTimestamp": 1773114401274,
     "testId": 16
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1773114850123,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1773114883911,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1773115030516,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1773115149897,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(logica/ui): integrar calculos de impuestos y descuentos por categoria",
+    "commitTimestamp": 1773115251280,
+    "testId": 17
   }
 ]

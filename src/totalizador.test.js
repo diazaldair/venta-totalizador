@@ -9,6 +9,8 @@ import {
   calcularDescuento,
   calcularTotalConDescuento,
   calcularPrecioTotal,
+  calcularDescuentoPorCategoria,
+  calcularImpuestoPorCategoria,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -158,5 +160,11 @@ describe("Totalizador - Lista de estados disponibles", () => {
   it("deberia validar que un estado no listado devuelva 0 (o manejo de error)", () => {
     
     expect(obtenerPorcentajeImpuesto("XX")).toEqual(0); 
+  });
+});
+describe("Totalizador - Categorías de productos", () => {
+  it("deberia aplicar 0% impuesto y 2% descuento adicional para Alimentos", () => {
+    expect(calcularDescuentoPorCategoria("Alimentos")).toEqual(2);
+    expect(calcularImpuestoPorCategoria("Alimentos")).toEqual(0);
   });
 });
