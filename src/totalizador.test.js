@@ -190,12 +190,12 @@ describe("Totalizador - Costo de envío por peso volumétrico", () => {
     expect(obtenerCostoEnvio(80)).toEqual(6);
   });
 
-  /*it("deberia devolver $6.5 para peso entre 81-100", () => {
+  it("deberia devolver $6.5 para peso entre 81-100", () => {
     expect(obtenerCostoEnvio(81)).toEqual(6.5);
     expect(obtenerCostoEnvio(100)).toEqual(6.5);
   });
 
-  it("deberia devolver $8 para peso entre 101-200", () => {
+  /*it("deberia devolver $8 para peso entre 101-200", () => {
     expect(obtenerCostoEnvio(101)).toEqual(8);
     expect(obtenerCostoEnvio(200)).toEqual(8);
   });
