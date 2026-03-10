@@ -96,8 +96,8 @@ export function obtenerDescuentoCliente(tipoCliente) {
   const descuentos = {
     "Normal": 0,
     "Recurrente": 0.5,
-    /*"Antiguo Recurrente": 1,
-    "Especial": 1.5*/
+    "Antiguo Recurrente": 1,
+    //"Especial": 1.5
   };
   return descuentos[tipoCliente] || 0;
 }

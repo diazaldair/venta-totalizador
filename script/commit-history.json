@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2715f4445accd070b73aa97216f311b0fe4af88c",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:35:01.000Z",
       "message": "feat: implementar descuento 0.5% para cliente Recurrente",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/2715f4445accd070b73aa97216f311b0fe4af88c"
     },
     "stats": {
       "total": 8,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:36:27.000Z",
+      "message": "feat: implementar descuento 1% para cliente Antiguo Recurrente",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }
