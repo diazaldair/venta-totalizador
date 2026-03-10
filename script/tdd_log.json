@@ -708,9 +708,31 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5a6f471bb1cb59922e66c651db1e8f6868ab83ab",
     "commitName": "feat(presenter): mostrar desglose completo con descuento fijo adicional",
     "commitTimestamp": 1773118369964,
     "testId": 34
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1773118624181,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1773118664327,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar validación para cantidad de items (debe ser > 0)",
+    "commitTimestamp": 1773118704665,
+    "testId": 35
   }
 ]

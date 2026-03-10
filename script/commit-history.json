@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a6f471bb1cb59922e66c651db1e8f6868ab83ab",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:52:47.000Z",
       "message": "feat(presenter): mostrar desglose completo con descuento fijo adicional",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/5a6f471bb1cb59922e66c651db1e8f6868ab83ab"
     },
     "stats": {
       "total": 33,
@@ -661,6 +661,25 @@
     },
     "coverage": 97.78,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:58:22.000Z",
+      "message": "feat: implementar validación para cantidad de items (debe ser > 0)",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 21,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 95.83,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }

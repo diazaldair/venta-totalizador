@@ -14,6 +14,7 @@ import {
   obtenerCostoEnvio,
   obtenerDescuentoCliente,
   calcularDescuentoFijo,
+  esDatosValidos,
 } from "./totalizador.js";
 
 describe("Totalizador - Cantidad de items", () => {
@@ -232,4 +233,18 @@ describe("Totalizador - Descuento fijo por tipo de cliente y categoria", () => {
   it("deberia aplicar $200 de descuento para cliente Especial, Neto > 7000 y Electronicos", () => {
     expect(calcularDescuentoFijo("Especial", 7500, "Electrónicos")).toEqual(200);
   });
+});
+describe("Totalizador - Validación de datos", () => {
+  it("deberia devolver false si la cantidad es 0 o negativa", () => {
+    expect(esDatosValidos(0, 10, 5)).toBe(false);
+    expect(esDatosValidos(-1, 10, 5)).toBe(false);
+  });
+
+  /*it("deberia devolver false si el precio es negativo", () => {
+    expect(esDatosValidos(1, -5, 5)).toBe(false);
+  });
+
+  it("deberia devolver true si los datos son correctos", () => {
+    expect(esDatosValidos(1, 100, 5)).toBe(true);
+  });*/
 });
