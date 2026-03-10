@@ -688,9 +688,23 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0f96c9e3efc2e8c6bf93b2136ee7de62bb01da49",
     "commitName": "feat: implementar descuento de  para cliente Recurrente, Neto > 3000 en Alimentos",
     "commitTimestamp": 1773118183666,
     "testId": 32
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1773118252125,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar descuento de  para cliente Especial, Neto > 7000 en Electrónicos",
+    "commitTimestamp": 1773118273505,
+    "testId": 33
   }
 ]

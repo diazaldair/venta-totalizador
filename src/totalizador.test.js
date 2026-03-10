@@ -229,7 +229,7 @@ describe("Totalizador - Descuento fijo por tipo de cliente y categoria", () => {
     expect(calcularDescuentoFijo("Recurrente", 3500, "Alimentos")).toEqual(100);
   });
 
-  /*it("deberia aplicar $200 de descuento para cliente Especial, Neto > 7000 y Electronicos", () => {
+  it("deberia aplicar $200 de descuento para cliente Especial, Neto > 7000 y Electronicos", () => {
     expect(calcularDescuentoFijo("Especial", 7500, "Electrónicos")).toEqual(200);
-  });*/
+  });
 });

@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0f96c9e3efc2e8c6bf93b2136ee7de62bb01da49",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:49:41.000Z",
       "message": "feat: implementar descuento de  para cliente Recurrente, Neto > 3000 en Alimentos",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/0f96c9e3efc2e8c6bf93b2136ee7de62bb01da49"
     },
     "stats": {
       "total": 19,
@@ -623,6 +623,25 @@
     },
     "coverage": 97.67,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:51:11.000Z",
+      "message": "feat: implementar descuento de  para cliente Especial, Neto > 7000 en Electrónicos",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-03-10"
+    },
+    "coverage": 97.78,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }
