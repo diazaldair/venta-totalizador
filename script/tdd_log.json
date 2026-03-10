@@ -528,9 +528,23 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0635448f9b0b11f48fdfd1622e1dcd107a93a50d",
     "commitName": "feat: implementar costo de envio para el rango 11-20kg",
     "commitTimestamp": 1773116331953,
     "testId": 20
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1773116420959,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar costo de envio para el rango 21-40kg",
+    "commitTimestamp": 1773116441874,
+    "testId": 21
   }
 ]
