@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "095725ff40beeebf9fa2ff9424cac87488af74d3",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T04:23:58.000Z",
       "message": "feat: implementar costo de envio para el rango 81-100kg",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/095725ff40beeebf9fa2ff9424cac87488af74d3"
     },
     "stats": {
       "total": 6,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T04:24:51.000Z",
+      "message": "feat: implementar costo de envio para el rango 101-200kg",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }
