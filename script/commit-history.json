@@ -703,17 +703,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c51c5dc18a973827455963b932d347f706f22f28",
     "author": "Marco Vargas",
     "commit": {
       "date": "2026-03-10T05:01:33.000Z",
       "message": "feat: implementar validación de peso negativo",
-      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/c51c5dc18a973827455963b932d347f706f22f28"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-03-10"
+    },
+    "coverage": 96.15,
+    "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Marco Vargas",
+    "commit": {
+      "date": "2026-03-10T05:04:24.000Z",
+      "message": "feat(presenter): integrar validaciones y desglose completo del precio final",
+      "url": "https://github.com/diazaldair/venta-totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 14,
+      "deletions": 9,
       "date": "2026-03-10"
     },
     "coverage": 96.15,

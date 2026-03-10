@@ -13,7 +13,8 @@ import {
   calcularImpuestoPorCategoria,
   obtenerCostoEnvio,
   obtenerDescuentoCliente,
-  calcularDescuentoFijo // Nueva importación
+  calcularDescuentoFijo,
+  esDatosValidos 
 } from "./totalizador.js";
 
 const inputCantidad = document.querySelector("#cantidad-items");
@@ -30,35 +31,39 @@ form.addEventListener("submit", (event) => {
 
   const cantidad = parseCantidadItems(inputCantidad.value);
   const precio = parsePrecioItem(inputPrecio.value);
+  const peso = parseFloat(inputPeso.value) || 0;
+
+  
+  if (!esDatosValidos(cantidad, precio, peso)) {
+    div.innerHTML = `<p style="color: red; font-weight: bold;">Error: Por favor ingresa valores numéricos válidos y positivos.</p>`;
+    return;
+  }
+
   const estado = inputEstado.value.toUpperCase();
   const categoria = inputCategoria.value;
-  const peso = parseFloat(inputPeso.value) || 0;
   const tipoCliente = inputCliente.value;
 
   const precioNeto = calcularPrecioNeto(cantidad, precio);
 
-  // Impuestos
+  
   const porcentajeImpuestoBase = obtenerPorcentajeImpuesto(estado);
   const impuestoAdicional = calcularImpuestoPorCategoria(categoria);
-  const impuesto = calcularImpuesto(precioNeto, porcentajeTotalImpuesto = porcentajeImpuestoBase + impuestoAdicional);
+  const impuesto = calcularImpuesto(precioNeto, (porcentajeImpuestoBase + impuestoAdicional));
 
-  // Descuentos de Producto
   const porcentajeDescuentoBase = obtenerPorcentajeDescuento(precioNeto);
   const descuentoAdicional = calcularDescuentoPorCategoria(categoria);
-  const descuento = calcularDescuento(precioNeto, porcentajeTotalDescuento = porcentajeDescuentoBase + descuentoAdicional);
+  const descuento = calcularDescuento(precioNeto, (porcentajeDescuentoBase + descuentoAdicional));
 
-  // Costo de envío con descuento por cliente
   const costoEnvioBaseUnitario = obtenerCostoEnvio(peso);
   const descuentoEnvioPorcentaje = obtenerDescuentoCliente(tipoCliente);
   const costoEnvioUnitarioConDescuento = costoEnvioBaseUnitario * (1 - (descuentoEnvioPorcentaje / 100));
   const costoEnvioTotal = costoEnvioUnitarioConDescuento * cantidad;
 
-  // Descuento fijo adicional
   const descuentoFijo = calcularDescuentoFijo(tipoCliente, precioNeto, categoria);
 
-  // Cálculo final
   const precioTotal = (calcularPrecioTotal(precioNeto, impuesto, descuento) + costoEnvioTotal) - descuentoFijo;
 
+ 
   div.innerHTML = `
     <p><span class="destacado">Cantidad:</span> ${cantidad}</p>
     <p><span class="destacado">Precio:</span> $${precio}</p>

@@ -758,9 +758,15 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c51c5dc18a973827455963b932d347f706f22f28",
     "commitName": "feat: implementar validación de peso negativo",
     "commitTimestamp": 1773118895780,
     "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(presenter): integrar validaciones y desglose completo del precio final",
+    "commitTimestamp": 1773119067024,
+    "testId": 38
   }
 ]
